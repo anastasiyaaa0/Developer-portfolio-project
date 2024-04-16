@@ -5,6 +5,7 @@
   padding-bottom: 32px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
 }
 
 .hero-title {
@@ -83,6 +84,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .hero {
+    margin-bottom: 48px;
+  }
+
   .hero-title {
     margin: 0 auto;
     margin-bottom: 243px;
