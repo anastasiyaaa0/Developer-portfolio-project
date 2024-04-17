@@ -1,0 +1,186 @@
+.projects {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.projects-title {
+  color: rgba(250, 250, 250, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.projects-swiper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* .projects-list {
+  overflow: hidden;
+} */
+
+.projects-list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-list-item-info {
+  border-radius: 24px 24px 0px 0px;
+  background: #fafafa;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.project-list-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-list-technologies-item {
+  padding: 13px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1d20;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  width: auto;
+}
+
+.project-item-title-btn-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.project-item-title {
+  color: #1c1d20;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+}
+
+.project-item-btn {
+  max-width: 141px;
+  padding: 13px 32px;
+  border: none;
+  border-radius: 60px;
+  background: #ed3b44;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+}
+
+.projects-list-item-pic {
+  padding: 100px 16px;
+  border-radius: 0px 0px 24px 24px;
+  background: #242527;
+}
+
+.project-buttons-set {
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+}
+
+.project-btn-swap {
+  background-color: transparent;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.project-btn-swap-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .projects-swiper {
+    gap: 64px;
+  }
+
+  .projects-list-item-info {
+    padding: 64px;
+    gap: 164px;
+  }
+
+  .project-list-technologies-item {
+    padding: 18px;
+  }
+
+  .project-item-title {
+    font-size: 44px;
+    line-height: 1;
+  }
+
+  .project-item-btn {
+    max-width: 177px;
+    padding: 18px 50px;
+  }
+
+  .projects-list-item-pic {
+    padding: 120px 45px;
+  }
+
+  .project-buttons-set {
+    gap: 20px;
+  }
+
+  .project-btn-swap {
+    width: 68px;
+    height: 68px;
+  }
+
+  .project-btn-swap-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projects {
+    padding-top: 82px;
+    padding-bottom: 82px;
+  }
+
+  .projects-list-item-info {
+    width: 50%;
+    border-radius: 24px 0px 0px 24px;
+    gap: 222px;
+  }
+
+  .projects-list-item {
+    flex-direction: row;
+  }
+
+  .project-item-title {
+    max-width: 494px;
+  }
+
+  .project-item-btn {
+    max-width: 184px;
+  }
+
+  .projects-list-item-pic {
+    padding: 120px 37px;
+    border-radius: 0px 24px 24px 0px;
+  }
+}
