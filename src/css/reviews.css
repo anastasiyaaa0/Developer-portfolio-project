@@ -1,0 +1,80 @@
+.reviews {
+  margin-bottom: 64px;
+}
+
+.reviews-title {
+  color: rgba(250, 250, 250, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.reviews-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 16px;
+}
+
+.reviews-list-item {
+  padding: 32px 24px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.reviews-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.reviews-customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviews-customer-author {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.reviews-descr {
+  color: rgba(250, 250, 250, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.review-buttons-set {
+  display: flex;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.review-swiper-button {
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 60px;
+}
+
+.review-swiper-button-icon {
+  stroke: #fafafa;
+  width: 24px;
+  height: 24px;
+}
