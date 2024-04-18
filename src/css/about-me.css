@@ -1,6 +1,5 @@
 .about-me {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .about-me-container {
@@ -160,7 +159,7 @@
 
 @media screen and (min-width: 768px) {
   .about-me {
-    margin-bottom: 48px;
+    margin-bottom: 96px;
   }
 
   .about-me-container {
@@ -180,6 +179,22 @@
     gap: 64px;
   }
 
+  .info-item-text-wrap {
+    padding-left: 696px;
+  }
+
+  .info-item-text {
+    max-width: 612px;
+  }
+
+  .roles-list {
+    padding-left: 696px;
+  }
+
+  .education-list {
+    padding-left: 696px;
+  }
+
   .about-me-info-list-item::after {
     bottom: -32px;
   }
@@ -193,6 +208,10 @@
     width: 20px;
     height: 20px;
   }
+
+  /* .info-item-text {
+    max-width: 700px;
+  } */
 
   .about-me-technologies {
     margin-top: 64px;
@@ -219,8 +238,7 @@
 
 @media screen and (min-width: 1440px) {
   .about-me {
-    margin-top: 48px;
-    margin-bottom: 82px;
+    margin-bottom: 164px;
   }
 
   .about-me-container {

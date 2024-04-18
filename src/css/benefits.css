@@ -1,6 +1,5 @@
 .benefits {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .benefits-title {
@@ -80,8 +79,7 @@
 
 @media screen and (min-width: 768px) {
   .benefits {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    margin-bottom: 96px;
   }
 
   .benefits-block {
@@ -101,8 +99,7 @@
 
 @media screen and (min-width: 1440px) {
   .benefits {
-    padding-top: 82px;
-    padding-bottom: 82px;
+    margin-bottom: 164px;
   }
 
   .benefits-container {

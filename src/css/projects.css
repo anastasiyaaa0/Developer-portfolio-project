@@ -1,6 +1,5 @@
 .projects {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .projects-title {
@@ -109,8 +108,7 @@
 
 @media screen and (min-width: 768px) {
   .projects {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    margin-bottom: 96px;
   }
 
   .projects-swiper {
@@ -157,8 +155,7 @@
 
 @media screen and (min-width: 1440px) {
   .projects {
-    padding-top: 82px;
-    padding-bottom: 82px;
+    padding-bottom: 164px;
   }
 
   .projects-list-item-info {
