@@ -24,8 +24,8 @@
   text-transform: uppercase;
 }
 
-.red {
-  color: #ed3b44;
+.orange {
+  color: #ff8a1d;
 }
 
 .pale {
@@ -141,7 +141,7 @@
 
 .is-active {
   border: none;
-  background-color: #ed3b44;
+  background-color: #ff8a1d;
 }
 
 .scroll-button {
@@ -208,10 +208,6 @@
     width: 20px;
     height: 20px;
   }
-
-  /* .info-item-text {
-    max-width: 700px;
-  } */
 
   .about-me-technologies {
     margin-top: 64px;

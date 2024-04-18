@@ -45,8 +45,8 @@
   color: #fafafa;
 }
 
-.text-red {
-  color: #ed3b44;
+.text-orange {
+  color: #ff8a1d;
 }
 
 .footer-form {
@@ -122,7 +122,7 @@ input[type='email'] {
 .send-form-btn {
   border: none;
   border-radius: 50%;
-  background-color: #ed3b44;
+  background-color: #ff8a1d;
   color: #fafafa;
   font-family: inherit;
   font-size: 16px;
@@ -134,7 +134,7 @@ input[type='email'] {
 
 .send-form-btn:hover,
 .send-form-btn:focus {
-  background-color: #e0373f;
+  background-color: #f97800;
 }
 
 .footer-links {

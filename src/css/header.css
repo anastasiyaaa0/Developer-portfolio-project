@@ -3,6 +3,7 @@
   width: 100%;
   left: 0;
   top: 32px;
+  z-index: 2;
 }
 
 .header-container {
@@ -75,7 +76,7 @@
 
   border: none;
   border-radius: 60px;
-  background: rgb(237, 59, 68);
+  background-color: #ff8a1d;
   color: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -123,5 +124,3 @@
     font-size: 20px;
   }
 }
-
-/* ================================================================================= */

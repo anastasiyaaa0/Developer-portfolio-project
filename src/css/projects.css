@@ -73,11 +73,16 @@
   padding: 13px 32px;
   border: none;
   border-radius: 60px;
-  background: #ed3b44;
+  background: #ff8a1d;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: -0.02em;
+}
+
+.project-item-btn:hover,
+.project-item-btn:focus {
+  background: #f97800;
 }
 
 .projects-list-item-pic {
