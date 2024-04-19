@@ -12,11 +12,10 @@
   background-position: center;
   background-size: cover;
   background: linear-gradient(
-    -90deg,
+    -90.57deg,
     rgb(28, 29, 32) 49.692%,
     rgb(172, 83, 0) 67.704%,
-    rgb(255, 127, 8) 99.891%,
-    rgb(255, 127, 8) 99.891%
+    rgb(254, 123, 1) 99.891%
   );
 }
 
@@ -47,7 +46,7 @@
   font-size: 50px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.02em;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 212px;
@@ -133,7 +132,12 @@
   }
 
   .background {
+    width: 50%;
     left: 0;
+  }
+
+  .transparent {
+    width: calc(100% / 11);
   }
 
   .hero-title {
