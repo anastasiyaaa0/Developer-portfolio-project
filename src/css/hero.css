@@ -8,15 +8,15 @@
   flex-direction: column;
   margin-bottom: 64px;
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background: linear-gradient(
     -90.57deg,
     rgb(28, 29, 32) 49.692%,
     rgb(172, 83, 0) 67.704%,
     rgb(254, 123, 1) 99.891%
   );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .background {
@@ -46,7 +46,7 @@
   font-size: 50px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 212px;
