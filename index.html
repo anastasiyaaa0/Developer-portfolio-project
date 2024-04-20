@@ -18,9 +18,9 @@
     />
     
     <script type="module" crossorigin src="/Developer-portfolio-project/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/Developer-portfolio-project/assets/vendor-b9f84ab9.js">
-    <link rel="stylesheet" href="/Developer-portfolio-project/assets/vendor-e5212ee8.css">
-    <link rel="stylesheet" href="/Developer-portfolio-project/assets/index-15306dae.css">
+    <link rel="modulepreload" crossorigin href="/Developer-portfolio-project/assets/vendor-ed711c24.js">
+    <link rel="stylesheet" href="/Developer-portfolio-project/assets/vendor-f54d4a44.css">
+    <link rel="stylesheet" href="/Developer-portfolio-project/assets/index-f4c4bd85.css">
   </head>
   <body>
     <!-- =======Modal window mobile======= -->
@@ -205,17 +205,17 @@
 
     <!--  -->
     <div class="about-me-info">
-      <ul class="about-me-info-list">
-        <li class="about-me-info-list-item">
+      <ul class="about-me-info-list accordion-container">
+        <li class="about-me-info-list-item ac">
           <div class="info-title-button-wrap">
             <h3 class="info-item-title">About me</h3>
-            <button class="disclosure-button" type="button">
-              <svg class="disclosure-button-icon">
-                <use href="/Developer-portfolio-project/assets/sprite-5311fca3.svg#icon-arrow-down"></use>
+            <button class="disclosure-button ac-trigger" type="button">
+              <svg class="disclosure-button-icon" data-status="open">
+                <use href="/Developer-portfolio-project/assets/sprite-5311fca3.svg#icon-arrow-up"></use>
               </svg>
             </button>
           </div>
-          <div class="info-item-text-wrap">
+          <div class="info-item-text-wrap ac-panel">
             <p class="info-item-text">
               I am Lloyd Ashford, a talented programmer with extensive expertise
               in software development. I have an understanding of different
@@ -239,31 +239,33 @@
             </p>
           </div>
         </li>
-        <li class="about-me-info-list-item">
+
+        <li class="about-me-info-list-item ac">
           <div class="info-title-button-wrap">
             <h3 class="info-item-title">Role</h3>
-            <button class="disclosure-button" type="button">
-              <svg class="disclosure-button-icon">
+            <button class="disclosure-button ac-trigger" type="button">
+              <svg class="disclosure-button-icon" data-status="close">
                 <use href="/Developer-portfolio-project/assets/sprite-5311fca3.svg#icon-arrow-down"></use>
               </svg>
             </button>
           </div>
-          <ul class="roles-list">
+          <ul class="roles-list ac-panel">
             <li class="roles-list-item">Frontend development</li>
             <li class="roles-list-item">HeadlessCMS,Wordpress</li>
             <li class="roles-list-item">Blender(enjoy)</li>
           </ul>
         </li>
-        <li class="about-me-info-list-item">
+
+        <li class="about-me-info-list-item ac">
           <div class="info-title-button-wrap">
             <h3 class="info-item-title">Education</h3>
-            <button class="disclosure-button" type="button">
-              <svg class="disclosure-button-icon">
+            <button class="disclosure-button ac-trigger" type="button">
+              <svg class="disclosure-button-icon" data-status="close">
                 <use href="/Developer-portfolio-project/assets/sprite-5311fca3.svg#icon-arrow-down"></use>
               </svg>
             </button>
           </div>
-          <ul class="education-list">
+          <ul class="education-list ac-panel">
             <li class="education-list-item">
               2017 - 2021 / Bachelor of Science in Computer Science, University
               of Cambridge, UK
