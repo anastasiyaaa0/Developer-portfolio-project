@@ -18,12 +18,4 @@ function onAccordionBtn(event) {
   const accordionBtn = event.currentTarget;
   const accordionBtnIcon = accordionBtn.firstElementChild;
   accordionBtnIcon.classList.toggle('rotate');
-
-  const statusBtn = accordionBtn.dataset.status;
-
-  if (statusBtn === 'open') {
-    accordionBtn.dataset.status = 'close';
-  } else {
-    accordionBtn.dataset.status = 'open';
-  }
 }
