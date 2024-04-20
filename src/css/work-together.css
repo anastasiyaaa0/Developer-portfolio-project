@@ -102,12 +102,6 @@
   border-bottom: 1px solid #e74a3b;
 }
 
-/* .form-input::placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
 #user-email::placeholder,
 #userComment::placeholder {
   position: absolute;

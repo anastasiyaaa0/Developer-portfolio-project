@@ -42,7 +42,8 @@
   gap: 40px;
 }
 
-.about-me-info-list-item {
+.about-me-info-list-item.ac {
+  all: unset;
   position: relative;
 }
 
@@ -70,7 +71,8 @@
   text-transform: uppercase;
 }
 
-.disclosure-button {
+.ac .disclosure-button.ac-trigger {
+  all: unset;
   width: 36px;
   height: 36px;
   display: flex;
@@ -79,6 +81,10 @@
   background-color: transparent;
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 100px;
+}
+
+.ac .disclosure-button.ac-trigger::after {
+  all: unset;
 }
 
 .disclosure-button-icon {
@@ -92,7 +98,12 @@
   gap: 32px;
 }
 
+.ac .ac-panel .info-item-text.ac-text {
+  all: unset;
+}
+
 .info-item-text {
+  max-width: 320px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -157,6 +168,10 @@
   height: 28px;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
 @media screen and (min-width: 768px) {
   .about-me {
     margin-bottom: 96px;
@@ -180,7 +195,7 @@
   }
 
   .info-item-text {
-    max-width: 612px;
+    max-width: 660px;
   }
 
   .about-me-info-list-item::after {
@@ -239,15 +254,19 @@
   }
 
   .info-item-text-wrap {
-    padding-left: 696px;
+    padding-left: 680px;
+  }
+
+  .info-item-text {
+    max-width: 650px;
   }
 
   .roles-list {
-    padding-left: 696px;
+    padding-left: 680px;
   }
 
   .education-list {
-    padding-left: 696px;
+    padding-left: 680px;
   }
 
   .about-me-summary-text {
