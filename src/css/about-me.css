@@ -43,12 +43,11 @@
 }
 
 .about-me-info-list-item.ac {
-  /* all: unset; */
-
   /* скидання стилів класу ac*/
   margin-top: 0;
   border: none;
   background-color: transparent;
+  /*  */
 
   position: relative;
 }
@@ -78,10 +77,9 @@
 }
 
 .ac .disclosure-button.ac-trigger {
-  /* all: unset; */
-
   /* скидання стилів класу ac*/
   padding: 0;
+  /*  */
 
   width: 36px;
   height: 36px;

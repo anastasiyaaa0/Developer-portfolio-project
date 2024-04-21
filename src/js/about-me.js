@@ -15,10 +15,11 @@ const aboutMeAccordeon = new Accordion(
   }
 );
 
-const accordionBtns = document.querySelectorAll(
+const aboutMeAccordionBtns = document.querySelectorAll(
   '.disclosure-button.ac-trigger'
 );
-accordionBtns.forEach(btn => {
+
+aboutMeAccordionBtns.forEach(btn => {
   btn.addEventListener('click', onAccordionBtn);
 });
 
