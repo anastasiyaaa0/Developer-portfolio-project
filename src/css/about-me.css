@@ -226,19 +226,19 @@
     gap: 64px;
   }
 
-  .technologies-list-item {
-    min-width: 200px;
-    min-height: 200px;
+  .technologies-list-item.swiper-slide {
+    width: 200px;
+    height: 200px;
     font-size: 20px;
     line-height: 1.2;
   }
 
-  .swipe-button {
+  .swiper-button {
     width: 40px;
     height: 40px;
   }
 
-  .swipe-button-icon {
+  .swiper-button-icon {
     width: 40px;
     height: 40px;
   }
