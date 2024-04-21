@@ -43,7 +43,13 @@
 }
 
 .about-me-info-list-item.ac {
-  all: unset;
+  /* all: unset; */
+
+  /* скидання стилів класу ac*/
+  margin-top: 0;
+  border: none;
+  background-color: transparent;
+
   position: relative;
 }
 
@@ -72,7 +78,11 @@
 }
 
 .ac .disclosure-button.ac-trigger {
-  all: unset;
+  /* all: unset; */
+
+  /* скидання стилів класу ac*/
+  padding: 0;
+
   width: 36px;
   height: 36px;
   display: flex;
@@ -84,7 +94,7 @@
 }
 
 .ac .disclosure-button.ac-trigger::after {
-  all: unset;
+  content: '';
 }
 
 .disclosure-button-icon {
@@ -96,10 +106,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-}
-
-.ac .ac-panel .info-item-text.ac-text {
-  all: unset;
 }
 
 .info-item-text {
