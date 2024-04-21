@@ -3,7 +3,7 @@ import 'accordion-js/dist/accordion.min.css';
 
 // ACCORDEON
 const faqAccordeon = new Accordion('.faq-list.accordion-container', {
-  duration: 300,
+  duration: 800,
   showMultiple: true,
 });
 

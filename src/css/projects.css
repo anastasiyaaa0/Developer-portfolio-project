@@ -171,7 +171,7 @@
 
 @media screen and (min-width: 1440px) {
   .projects {
-    padding-bottom: 164px;
+    margin-bottom: 164px;
   }
 
   .projects-list-item-info {

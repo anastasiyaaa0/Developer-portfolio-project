@@ -35,11 +35,25 @@
 .covers-img {
   width: 280px;
   height: auto;
-  /* animation-name: none;
-  animation-duration: 8s;
+
+  animation-name: none;
+  animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-direction: alternate; */
+  animation-direction: alternate;
+}
+
+.covers-active {
+  animation-name: marqueeLine;
+}
+
+@keyframes marqueeLine {
+  0% {
+    transform: translateX(75%);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -70,7 +84,20 @@
     justify-content: center;
   }
 
-  /* .covers-list-item {
+  .covers-list-item {
     justify-content: flex-end;
-  } */
+  }
+
+  .covers-img {
+    animation-duration: 3s;
+  }
+
+  @keyframes marqueeLine {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(80%);
+    }
+  }
 }
