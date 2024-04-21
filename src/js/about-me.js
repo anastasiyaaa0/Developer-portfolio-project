@@ -3,8 +3,7 @@ import 'accordion-js/dist/accordion.min.css';
 
 import Swiper from 'swiper';
 import 'swiper/css';
-import { Keyboard } from 'swiper/modules';
-import { Mousewheel } from 'swiper/modules';
+import { Navigation, Keyboard, Mousewheel } from 'swiper/modules';
 
 // ACCORDEON
 const aboutMeAccordeon = new Accordion(
@@ -30,15 +29,17 @@ function onAccordionBtn(event) {
 }
 
 // SWIPER
-const swipeBtn = document.querySelector('.swiper-button');
 const aboutMeSwiper = new Swiper('.about-me-swiper', {
-  modules: [Keyboard, Mousewheel],
+  modules: [Keyboard, Mousewheel, Navigation],
   keyboard: {
     enabled: true,
     onlyInViewport: false,
   },
   mousewheel: {
     invert: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button',
   },
 
   loop: true,
@@ -55,5 +56,3 @@ const aboutMeSwiper = new Swiper('.about-me-swiper', {
     },
   },
 });
-
-swipeBtn.addEventListener('click', () => aboutMeSwiper.slideNext());
