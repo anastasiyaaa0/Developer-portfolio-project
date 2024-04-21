@@ -1,12 +1,10 @@
 .footer {
-  margin-top: 32px;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
 }
 
 .footer-container {
   position: relative;
-  padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
   flex-direction: column;
@@ -216,12 +214,7 @@ input[type='email'] {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    margin-top: 48px;
-  }
-
   .footer-container {
-    padding-top: 80px;
     padding-bottom: 169px;
   }
 
@@ -278,10 +271,6 @@ input[type='email'] {
 }
 
 @media screen and (min-width: 1440px) {
-  .footer {
-    margin-top: 82px;
-  }
-
   .footer-container {
     padding-right: 164px;
     padding-left: 164px;

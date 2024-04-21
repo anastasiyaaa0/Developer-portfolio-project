@@ -17,12 +17,16 @@
   gap: 32px;
 }
 
-.reviews-list {
-  display: flex;
-  gap: 16px;
+.reviews-swiper {
+  overflow: hidden;
 }
 
-.reviews-list-item {
+.reviews-list {
+  display: flex;
+}
+
+.reviews-list-item.swiper-slide {
+  height: auto;
   padding: 32px 24px;
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 20px;
@@ -80,6 +84,15 @@
   stroke: #fafafa;
   width: 24px;
   height: 24px;
+}
+
+.not-found-info {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.4);
 }
 
 @media screen and (min-width: 768px) {
