@@ -85,10 +85,10 @@
 }
 
 .menu-header-navigation {
-  padding: 300px 100px 65px 100px;
+  margin: 0 auto;
+  padding-top: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .menu-navigation-list {
@@ -96,7 +96,7 @@
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  margin-bottom: 290px;
+  margin-bottom: 250px;
 }
 
 .menu-sections-link {
@@ -109,6 +109,7 @@
 }
 
 .menu-header-order-button {
+  margin: 0 auto;
   border: none;
   border-radius: 60px;
   background-color: #ff8a1d;
@@ -118,6 +119,7 @@
   line-height: 1.18;
   letter-spacing: -0.02em;
   padding: 18px 24px;
+  width: 165px;
 }
 
 /* ========================================================= */
